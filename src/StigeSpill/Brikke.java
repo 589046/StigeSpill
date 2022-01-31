@@ -29,7 +29,7 @@ public class Brikke {
      * @param terningKast
      * @param brett
      */
-    public void flyttBrikke(Integer terningKast, Brett brett) throws IndexOutOfBoundsException {
+    public void flyttBrikke(Integer terningKast, Brett brett) {
         // -1 fordi rute ID er alltid ein meir enn idexen
         Rute nesteRute;
         if (rute.getId() + terningKast - 1 < 100) {

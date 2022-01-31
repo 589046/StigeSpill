@@ -26,6 +26,7 @@ public class StigeSpill {
      * Spiller eit stige spill
      */
     public void spill() {
+        brett.initBrett();
         for (Spiller s : spillere) {
             s.getBrikke().setRute(brett.getRuter().get(0));
         }
